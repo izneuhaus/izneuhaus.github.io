@@ -19,18 +19,18 @@
 $primary: #0a0a0a;
 $secondary: #FF7B7B;
 
-%opensans { font-family: 'Open Sans', sans-serif; }
-%merriweather { font-family: 'Merriweather', serif; }
+%bodyFont { font-family: 'Livvic', sans-serif; }
+%headingFont { font-family: 'Noto Serif JP', sans-serif; }
 
 /*--------------------------------------------------------------
 	1.0 Defaults
 --------------------------------------------------------------*/
 
 :root {
-  --bg-body: #e9edf0;
-  --bg-main: white;
-  --bg-button: white;
-  --font: black;
+  --bg-body: #bf9fee;
+  --bg-main: #ffd7e8;
+  --link-hover: #f2c0ff;
+  --font: #866ec7;
 }
 
 @media (min-width: 1200px) {
@@ -42,12 +42,12 @@ $secondary: #FF7B7B;
 body {
   background-color: var(--bg-body);
   color: var(--font);
-  @extend %opensans;
+  @extend %bodyFont;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @extend %merriweather;
+  @extend %headingFont;
   font-weight: 700;
 }
 
@@ -61,9 +61,10 @@ p {
 }
 
 a {
+  color: var(--bg-body);
   @include transition(color .2s ease-in-out);
   &:hover {
-    color: #FF5B33;
+    color: var(--link-hover);
     text-decoration: none;
   }
 }
@@ -71,16 +72,17 @@ a {
 button.btn, input.btn {
   padding: 12px 35px;
   margin: 2em 0.5em;
-  border: solid 1px #d5e0e7;
+  border: solid 1px var(--bg-body);
   border-radius: 4px;
-  color: #2E4453;
+  color: var(--font);
   font-weight: 600;
   &:hover, &.btn-default:hover {
-    background-color: var(--bg-button);
-    border: solid 1px #b0c5d2;
-    -moz-box-shadow: 0 1px 0 #b0c5d2;
-    -webkit-box-shadow: 0 1px 0 #b0c5d2;
-    box-shadow: 0 1px 0 #b0c5d2;
+    color: var(--font);
+    background-color: var(--bg-body);
+    // border: solid 1px #b0c5d2;
+    // -moz-box-shadow: 0 1px 0 #b0c5d2;
+    // -webkit-box-shadow: 0 1px 0 #b0c5d2;
+    // box-shadow: 0 1px 0 #b0c5d2;
   }
   i {
     padding-right: 0.5em;
@@ -147,10 +149,15 @@ button.btn, input.btn {
   .hero-buttons {
     margin: 0 auto;
     display: table;
+    text-align: center;
     i {
       padding-right: 0.5em;
     }
   }
+}
+
+.fa {
+  color: var(--font);
 }
 
 /*--------------------------------------------------------------
@@ -232,7 +239,7 @@ button.btn, input.btn {
     top: 1.35em;
     width: 3em;
     height: 3px;
-    background-color: #ECEFF1;
+    background-color: var(--bg-body);
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -279,11 +286,11 @@ button.btn, input.btn {
       &:after {
         content: '';
         position: absolute;
-        top: 1.5em;
+        top: 2em;
         left: 0;
         width: 3em;
         height: 3px;
-        background-color: #ECEFF1;
+        background-color: var(--bg-body);
       }
     }
     .excerpt {

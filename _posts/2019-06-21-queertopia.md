@@ -5,10 +5,9 @@ title: 'Stand-Up Comedy Set (QueertopIA 2019)'
 date: 2019-06-21
 categories: comedy
 # tags: live comedy
-# featured_image: '/img/posts/04_phantom-jekyll-1130x864-2x.png'
+# featured_image: ''
 youtube_embed: 'https://www.youtube.com/embed/V-stJNZXCzw'
-# button_icon: 'youtube'
-# button_text: 'Watch'
-project_link: ''
-lead_text: 'my first swing at a comedy set'
+lead_text: "my first attempt at doing stand-up comedy. i think it went alright. i didn't even throw up (during OR after!)"
+buttons:
+    - { icon: 'youtube', text: 'Watch on Youtube', url: 'https://www.youtube.com/watch?v=V-stJNZXCzw' }
 ---

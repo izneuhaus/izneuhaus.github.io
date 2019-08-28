@@ -2,7 +2,7 @@
   <iframe width="512" height="288" src="{{ post.youtube_embed }}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% else if post.bandcamp_embed %}
   <div style="text-align: center">
-    <iframe style="border: 0; width: 300px; height: 450px;" src="https://bandcamp.com/EmbeddedPlayer/album=110993223/size=large/bgcol=333333/linkcol=9a64ff/tracklist=false/transparent=true/" seamless><a href="{{ post.bandcamp_embed }}">Mascots by Good Evening Gumm</a></iframe>
+    <iframe style="border: 0; width: 300px; height: 450px;" src="{{ post.bandcamp_embed }}" seamless><a href="{{ post.buttons[0].url }}">Mascots by Good Evening Gumm</a></iframe>
   </div>  
 {% else if post.featured_image %}
   <img class="img-responsive" src="{{ post.featured_image }}" title="{{ post.title }}">

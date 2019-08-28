@@ -19,9 +19,11 @@ email: 'contact@izzyneuha.us'
 description: "writer, game developer, musician, comedian, etc"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://izzyneuha.us/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 'iznaut'
-github_username: 'izneuhaus'
-medium_username: 'https://medium.com/@iznaut/'
+social:
+  - { icon: 'twitter', text: 'Twitter', url: 'https://twitter.com/iznaut' }
+  - { icon: 'twitch', text: 'Twitch', url: 'https://twitch.tv/iznaut' }
+  - { icon: 'soundcloud', text: 'Soundcloud', url: 'https://soundcloud.com/iznaut' }
+  - { icon: 'itch-io', text: 'itch.io', url: 'http://iznaut.itch.io/' }
 
 # Build settings
 markdown: kramdown
