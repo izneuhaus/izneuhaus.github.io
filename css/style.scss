@@ -125,7 +125,7 @@ button.btn, input.btn {
 }
 
 .hero-container {
-  margin: 10em 0 9em 0;
+  margin: 12em 0 9em 0;
   @include bp-xsmall {
     margin: 5em 0 5em 0;
   }
@@ -233,6 +233,9 @@ button.btn, input.btn {
     @include bp-xsmall {
       margin: 2em 0;
     }
+  }
+  h1 {
+    padding-top: 50px;
   }
 }
 
