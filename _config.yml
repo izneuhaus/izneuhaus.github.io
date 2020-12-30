@@ -24,6 +24,8 @@ social:
   - { icon: 'twitch', text: 'Twitch', url: 'https://twitch.tv/iznaut' }
   - { icon: 'soundcloud', text: 'Soundcloud', url: 'https://soundcloud.com/iznaut' }
   - { icon: 'itch-io', text: 'itch.io', url: 'http://iznaut.itch.io/' }
+  - { icon: 'github', text: 'GitHub', url: 'https://github.com/izneuhaus' }
+
 
 # Build settings
 markdown: kramdown
