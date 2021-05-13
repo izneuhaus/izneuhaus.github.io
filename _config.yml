@@ -13,18 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "isabelle adena neuhaus"
+title: "isabelle adena ibis"
 avatar: 'img/avatar.jpg'
-email: 'contact@izzyneuha.us'
+email: 'contact@izzyib.is'
 description: "writer, game developer, musician, comedian, etc"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://izzyneuha.us/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://izzyib.is/" # the base hostname & protocol for your site, e.g. http://example.com
 social:
   - { icon: 'twitter', text: 'Twitter', url: 'https://twitter.com/iznaut' }
   - { icon: 'twitch', text: 'Twitch', url: 'https://twitch.tv/iznaut' }
   - { icon: 'soundcloud', text: 'Soundcloud', url: 'https://soundcloud.com/iznaut' }
   - { icon: 'itch-io', text: 'itch.io', url: 'http://iznaut.itch.io/' }
-  - { icon: 'github', text: 'GitHub', url: 'https://github.com/izneuhaus' }
 
 
 # Build settings
@@ -35,8 +34,8 @@ plugins:
 
 ### Phantom settings
 paginate: 10
-footer_text: '© 2019 izzy neuhaus'
-admin_name: 'izzy neuhaus'
+footer_text: '© 2019 izzy ibis'
+admin_name: 'izzy ibis'
 # google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
 
