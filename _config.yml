@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "isabelle adena ibis"
+title: "isabelle adena neuhaus"
 avatar: 'img/avatar.jpg'
-email: 'contact@izzyib.is'
+email: 'contact@iznaut.com'
 description: "writer, game developer, musician, comedian, etc"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://izzyib.is/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -34,8 +34,8 @@ plugins:
 
 ### Phantom settings
 paginate: 10
-footer_text: '© 2019 izzy ibis'
-admin_name: 'izzy ibis'
+footer_text: '© 2019 izzy neuhaus'
+admin_name: 'izzy neuhaus'
 # google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
 
